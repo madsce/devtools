@@ -6,5 +6,15 @@ Version: 1.0
 Template: twentysixteen
 */
 
-@import url('../twentysixteen/style.css')
+@import url('../twentysixteen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
 
+/*font-family: 'Droid Sans', sans-serif;*/
+
+body{
+	background-color: pink;
+}
+
+.entry-title {
+	font-family: 'Droid Sans', sans-serif; 
+}
