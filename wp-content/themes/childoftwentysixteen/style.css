@@ -18,3 +18,15 @@ body{
 .entry-title {
 	font-family: 'Droid Sans', sans-serif; 
 }
+
+#masthead {
+	background-color: pink;
+}
+
+/* attempt to change all the body copy to sans serif */
+.entry-content> :last-child; {
+	font-family: Helvetica;
+	color: pink;
+}
+
+
