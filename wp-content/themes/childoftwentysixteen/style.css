@@ -12,7 +12,7 @@ Template: twentysixteen
 /*font-family: 'Droid Sans', sans-serif;*/
 
 body{
-	background-color: pink;
+	background-color: #DDE9F0;
 }
 
 .entry-title {
@@ -20,13 +20,44 @@ body{
 }
 
 #masthead {
-	background-color: pink;
+	background-color: #DDE9F0;
 }
 
 /* attempt to change all the body copy to sans serif */
 .entry-content> :last-child; {
 	font-family: Helvetica;
-	color: pink;
+	/*color: pink;*/
+}
+
+.sticky-post::before {
+	content: "Important Information";
+	display: block;
+	font-family: 'Poiret One', cursive;
+	
+	padding: 1 em;
+}
+
+.site-content {
+    word-wrap: break-word;
+    background-color: #467FA0;
+}
+
+.site-footer {
+    padding: 0 7.6923% 1.75em;
+    background-color: #A04651;
+}
+
+.site-info a {
+    color: #A0A046;
+}
+
+.entry-footer a {
+    color: #A0A046;
+}
+
+a {
+    color: #A0A046;
+    text-decoration: none;
 }
 
 
